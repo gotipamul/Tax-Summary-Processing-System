@@ -1,0 +1,27 @@
+
+<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styleindex.css">
+<body align="center"><header>
+		<nav>
+			
+			<ul id="navli">
+				<li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>"">HOME</a></li>
+        <li><a class="homered" href="myprofile.php?id=<?php echo $id?>"">My Profile</a></li>
+  
+        <li><a class="homeblack" href="resp.php?id=<?php echo $id?>"">Message Admin</a></li>
+        <li><a class="homeblack" href="elogin.html">Log Out</a></li>
+			</ul>
+		</nav>
+	</header><link rel="stylesheet" type="text/css" href="a.css" media="screen"/><script type="text/javascript" src="b.js"></script><div id=outer align="center"><h1>Tax Summary</h1><div id=outer align="center"><h1>Income Tax Calculator India AY 2021-22</h1><div id=cover>
+<h1><form name=it><table class=main><col class=w60><col class=w40>
+<tr><td>Opted for Sec. 115BAC<td><select id=opt onchange=itax2122();><option value='no' selected>No<option value='yes'>Yes</select>
+<tr class=stat><td>Select Status<td><select id=age ><option value='b60' selected>Resident < 60 years<option value='a60'>>= 60 < 80 years<option value='a80'>>= 80 years<option value=huf>HUF / NRE</select>
+<h1><tr><td>Income<td><input type=number id=tinc>
+<tr><td>Eligible Deductions<td><input type=number id=ed>
+<tr><td><button type=reset >Reset</button><td><button type=button onclick=itax2122();>Submit</button>
+<tr><td>Taxable Income<td><input class=op id=ninc >
+<tr><td>Income Tax<td><input class=op id=itax>
+<tr><td>Surcharge<td><input class=op id=surch>
+<tr><td>Education Cess<td><input class=op id=ecess>
+<tr><td>Total Tax Liability<td><input class=op id=liab>
+<tr><td colspan=2 style=text-align:center><br><a href="aboutus.html" target=_blank><b>Tax Guide | Tax Slabs | Websites</b></a></table></form></div></div></td></h1></script></tr></body>
